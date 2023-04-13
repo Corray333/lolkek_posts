@@ -11,10 +11,6 @@ import (
 	"go.mongodb.org/mongo-driver/mongo/options"
 )
 
-type Post struct {
-	Desc string `json: "desc" bson: "desc"`
-}
-
 type MongoInstance struct {
 	Client *mongo.Client
 	Db     *mongo.Database

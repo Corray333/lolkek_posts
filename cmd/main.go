@@ -9,6 +9,7 @@ import (
 )
 
 func main() {
+	// Connect to database
 	err := db.Connect()
 	if err != nil {
 		fmt.Println(err)

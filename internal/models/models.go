@@ -18,5 +18,5 @@ type Content struct {
 type Comment struct {
 	Id     primitive.ObjectID
 	Text   string
-	Authon primitive.ObjectID
+	Author primitive.ObjectID
 }
