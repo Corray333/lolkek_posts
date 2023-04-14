@@ -1,7 +1,7 @@
 # Posts handling microservise for Lolkek application
 ---
 ## Microservice structure:
-├───cmd\  
+├───cmd  
 &emsp;├───main.go\
 └───internal\
 &emsp;├───database\
@@ -14,7 +14,7 @@
 └───.girignore\
 └───go.mod\
 └───go.sum\
-└───README.md\
+└───README.md
 ___
 ## Packges:
 1. */posts_ms/internal/database*: initializes connection to database "posts_db"
